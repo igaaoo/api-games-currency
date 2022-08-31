@@ -1,6 +1,6 @@
 # api-games-currency
  💰 Get the value of famous games currency in dollar value
- ![image](https://user-images.githubusercontent.com/88206626/187777995-7b796904-aa9e-4432-b12c-fa19e7d9a7c3.png)
+![image](https://user-images.githubusercontent.com/88206626/187779026-2003a42a-7355-41ae-b97f-984c9df847ec.png)
 ## Add "/game/game-name" to URL to get a specific currency by name:
 ![image](https://user-images.githubusercontent.com/88206626/187778161-363b0f74-cb5b-4c68-b4f6-ea94818304dc.png)
 ## Add "/currency/game-currency" to URL to get a specific currency by currency name:
