@@ -2,7 +2,7 @@ const express = require('express') // Variables that receive the dependencies
 const morgan = require('morgan')
 const cors = require('cors')
 const bodyParser = require('body-parser')
-const routes = require('./config/routes') // Variable that receives the routes
+const routes = require('./api/routes') // Variable that receives the routes
 
 const app = express()
 
