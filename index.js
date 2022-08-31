@@ -11,7 +11,7 @@ app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.json())
 app.use(cors())
-app.use(router)
+app.use('/', router)
 
 const PORT = process.env.PORT || 5050 // Variable that receives the port
 
