@@ -2,9 +2,17 @@ const express = require('express')
 const router = express.Router()
 
 let db = [
-  { id: 1, game: 'mario', currency: 'mario', value: 0.5 },
-  { id: 2, game: 'league of legends', currency: 'lol', value: 0.3 },
-  { id: 3, game: 'world of warcraft', currency: 'wow', value: 0.4 },
+  { id: 1, game: 'super mario', currency: 'mariocoin', value: 0.09 },
+  { id: 2, game: 'world of warcraft', currency: 'wowtoken', value: 20 },
+  { id: 3, game: 'monster hunter', currency: 'zeni', value: 0.01 },
+  { id: 4, game: 'animal crossing', currency: 'bells', value: 0.01 },
+  { id: 5, game: 'final fantasy', currency: 'gil', value: 0.012 },
+  { id: 6, game: 'kingdom hearts', currency: 'munny', value: 0.015 },
+  { id: 7, game: 'fallout', currency: 'caps', value: 0.03 },
+  { id: 8, game: 'zelda', currency: 'rupees', value: 0.5 },
+  { id: 9, game: 'the sims', currency: 'simoleons', value: 1.28 },
+  { id: 10, game: 'bioshock infinite', currency: 'silvereagles', value: 33 },
+  { id: 11, game: 'skyrim', currency: 'septim', value: 143 },
 ]
 
 // router
